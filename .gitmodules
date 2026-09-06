@@ -1,0 +1,6 @@
+[submodule "GMAO-SERVICES-IA"]
+	path = GMAO-SERVICES-IA
+	url = https://github.com/abdellha2013/GMAO-SERVICES-IA.git
+[submodule "GMAO-FRONTEND"]
+	path = GMAO-FRONTEND
+	url = https://github.com/abdellha2013/GMAO-FRONTEND.git
