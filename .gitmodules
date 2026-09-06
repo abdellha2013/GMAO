@@ -4,3 +4,6 @@
 [submodule "GMAO-FRONTEND"]
 	path = GMAO-FRONTEND
 	url = https://github.com/abdellha2013/GMAO-FRONTEND.git
+[submodule "GMAO-BACKEND"]
+	path = GMAO-BACKEND
+	url = https://github.com/MohamedZarmouni/GMAO-BACKEND.git
