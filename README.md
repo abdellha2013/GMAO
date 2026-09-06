@@ -39,27 +39,27 @@ GMAO est une application enterprise de **maintenance prédictive et assistée pa
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│                     GMAO-FRONTEND  (React 19)                       │
-│                     Vite 8 · Tailwind CSS v4 · Port 5173            │
+│                     GMAO-FRONTEND  (React 19)                        │
+│                     Vite 8 · Tailwind CSS v4 · Port 5173             │
 ├──────────────────────────────────────────────────────────────────────┤
-│                     LARAVEL BACKEND  (PHP 8.3)                      │
-│                     JWT/Sanctum · RBAC 4 rôles · Port 8000          │
+│                     LARAVEL BACKEND  (PHP 8.3)                       │
+│                     JWT/Sanctum · RBAC 4 rôles · Port 8000           │
 ├──────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌──────────────┐  │
-│  │  GMAO-ML    │ │  GMAO-RAG   │ │ GMAO-ANALYTICS│ │  GMAO-OCR   │  │
+│  ┌─────────────┐ ┌─────────────┐ ┌───────────────┐ ┌──────────────┐  │
+│  │  GMAO-ML    │ │  GMAO-RAG   │ │ GMAO-ANALYTICS│ │  GMAO-OCR    │  │
 │  │  :8100      │ │  :8500      │ │  :8300        │ │  :8400       │  │
 │  │  Prédictif  │ │  Assistant  │ │  KPI/Rapports │ │  Vision QR   │  │
-│  └──────┬──────┘ └──────┬──────┘ └──────┬────────┘ └──────┬───────┘  │
-│         │               │               │                  │          │
+│  └──────┬──────┘ └──────┬──────┘ └──────┬────────┘ └───────┬──────┘  │
+│         │               │               │                  │         │
 │  ┌──────┴───────────────┴───────────────┴──────────────────┴───────┐ │
-│  │                     GMAO-API  :8200                              │ │
-│  │              Passerelle capteurs · Orchestrateur ML              │ │
+│  │                     GMAO-API  :8200                             │ │
+│  │              Passerelle capteurs · Orchestrateur ML             │ │
 │  └─────────────────────────────────────────────────────────────────┘ │
 │                                                                      │
 ├──────────────────────────────────────────────────────────────────────┤
-│  MySQL (:3306)        │  Qdrant (:6333)        │  OpenAI / Gemini   │
-│  15 tables gmao       │  Vecteurs embeddings   │  Génération LLM    │
+│  MySQL (:3306)        │  Qdrant (:6333)        │  OpenAI / Gemini    │
+│  15 tables gmao       │  Vecteurs embeddings   │  Génération LLM     │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
